@@ -64,6 +64,7 @@ CMD ["npm", "start"]
 
 # To run the container, use the following command:
 # docker run -p 3000:3000 my-app 
+# docker run -p 8000:8000 my-app 
 **
 	
 1. **Use an official base image:** `FROM node:14`
@@ -75,7 +76,7 @@ CMD ["npm", "start"]
 **Build and Run Docker Image:**
 - **Build:** `docker build -t my-app .`
 - **Run:** `docker run -p 3000:3000 my-app`
-		   `docker run -p 3000:3000 my-app`
+		   `docker run -p 8000:8000 my-app`
 
 **Managing Docker Containers:**
 - **List containers:** `docker ps -a`
