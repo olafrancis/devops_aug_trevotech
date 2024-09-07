@@ -57,6 +57,7 @@ RUN npm install
 
 # Expose the port the app runs on
 EXPOSE 3000
+EXPOSE 8000
 
 # Define the command to run the application
 CMD ["npm", "start"]
@@ -74,6 +75,7 @@ CMD ["npm", "start"]
 **Build and Run Docker Image:**
 - **Build:** `docker build -t my-app .`
 - **Run:** `docker run -p 3000:3000 my-app`
+		   `docker run -p 3000:3000 my-app`
 
 **Managing Docker Containers:**
 - **List containers:** `docker ps -a`
