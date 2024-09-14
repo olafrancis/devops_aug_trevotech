@@ -31,7 +31,7 @@ Complete the following tasks by the end of the week. Submit your completed work 
 ### **Task 3: Hands-On Practical with Docker**
 
 1. **Explore Docker Images, Containers, and Dockerfile:**  
-   * Create a simple Dockerfile for a basic web application using the following GitHub repository: [https://github.com/josephifekwe97/my-app.git](https://github.com/josephifekwe97/my-app.git).. Your Dockerfile should:  
+   * Create a simple Dockerfile for a basic web application using the following GitHub repository: (https://github.com/josephifekwe97/my-app.git).. Your Dockerfile should:  
      * Use an official base image.  
      * Copy application code into the container.  
      * Install necessary dependencies.  
